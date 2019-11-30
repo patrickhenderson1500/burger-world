@@ -1,0 +1,250 @@
+body {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.2em;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar-custom {
+  background-color: black;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.navbar .navbar-nav li a:hover {
+  color: gray !important;
+}
+
+.display-4 {
+  color: white;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-shadow: 1px 1px black;
+  font-weight: 500;
+}
+
+.lead {
+  text-shadow: 1px 1px gray;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.jumbotron {
+  background-image: url(https://www.fountainfishbar.co.uk/image/cache/data/banner1-1920x750.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-style: italic;
+  text-align: center;
+  padding-top: 18%;
+  padding-bottom: 18%;
+  /* height: 750px;
+  padding: 275px;
+  margin: -5px; */
+}
+
+.h4-first {
+  font-size: 2em;
+}
+
+.title-1 {
+  font-size: 2em;
+  color: white;
+  text-transform: uppercase;
+}
+
+#testimonials {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(33, 37, 41);
+  color: white;
+}
+
+#services {
+  background: #c20d00;
+}
+
+#menu {
+  padding-top: 3rem;
+  padding-bottom: 20rem;
+}
+
+#footer {
+  background-color: rgb(33, 37, 41);
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.ab-content img {
+  border-radius: 50%;
+  width: 68%;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.15);
+}
+
+.ab-content {
+  width: 50%;
+  float: left;
+}
+
+.ab-info {
+  text-align: center;
+}
+
+.ab-info h4 {
+  color: #ffc80a;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 1em 0 0em 0;
+}
+
+.ab-info p {
+  color: white;
+}
+
+.ab-info-content h4 {
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 1em 0 0em 0;
+}
+
+.price {
+  color: #c20d00;
+}
+
+.mid-sec img {
+  padding: 5px;
+}
+
+.tab-main img {
+  width: 40%;
+}
+
+.tab-main #tab1:checked ~ #content1, .tab-main #tab2:checked ~ #content2 {
+  display: block;
+}
+
+.tab-main section {
+  display: none;
+  padding: 4em 0 2em 0;
+  border-top: 1px solid #ddd;
+}
+
+.tab-main input {
+  display: none;
+}
+
+.tab-main input:checked + label {
+  color: #ffc80a;
+  border: none;
+  border-top: none;
+  border-bottom: 1px solid #fff;
+  background: #c20d00;
+}
+
+.tab-main label {
+  display: inline-block;
+  margin: 0;
+  padding: 15px 60px;
+  font-weight: 600;
+  text-align: center;
+  color: #2c2c2f;
+  border: none;
+  background: #eff0f1;
+  text-transform: uppercase;
+}
+
+.tab-main label:hover {
+  color: #c20d00;
+  cursor: pointer;
+}
+
+.tab-wrap {
+  border: 1px solid #ddd;
+}
+
+.testimonialsLI {
+  display: inline;
+}
+
+.contact-form button.btn {
+  background: #c20d00;
+  padding: 15px 25px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #fff;
+  border-radius: 0px;
+  display: block;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: transparent;
+  width: 100%;
+}
+
+.contact-form label {
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+
+.contact-form .form-control {
+padding: 25px;
+border: 2px solid #d2d6da;
+border-radius: 0px;
+font-size: 1em;
+letter-spacing: 1px;
+}
+
+.title-2 {
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+.footer-top-inner-w3ls {
+  padding: 1em 0em 1em 0em;
+}
+
+ul.list-info-w3pvt {
+  list-style: none;
+}
+
+ul.list-info-w3pvt li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+  height: 35px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.layer-footer2 {
+  display: inline-block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+hr {
+  border-top: 2px solid rgba(255, 255, 255, 0.14);
+  height: 10px;
+}
